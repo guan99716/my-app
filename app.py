@@ -13,7 +13,7 @@ def hello():
 
 @app.route("/health")
 def health():
-    return "ok\n"
+    return "壞掉了\n"
 
 
 if __name__ == "__main__":
