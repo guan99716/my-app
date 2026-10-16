@@ -11,5 +11,10 @@ def hello():
     return f"這是第 {count} 次造訪\n"
 
 
+@app.route("/health")
+def health():
+    return "ok\n"
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
